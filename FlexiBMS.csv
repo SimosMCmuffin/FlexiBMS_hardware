@@ -1,0 +1,74 @@
+Title;FlexiBMS;;;;;;;;
+Revision;0.1;;;;;;;;
+Date;22.2.2018;;;;;;;;
+Generated;17.3.2018 15:49;;;;;;;;
+Company;SiMoS MCmuffin / Simo Sihvonen;;;;;;;;
+Comment 1;;;;;;;;;
+Comment 2;;;;;;;;;
+Comment 3;;;;;;;;;
+Comment 4;;;;;;;;;
+Total Parts;195;;;;;;;;
+Total Unique Parts;53;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+Ref;Value;Qty;Footprint;Datasheet;B25/85;MFG;Power;TempCo.;Tol.
+C1 C3 C5 C6 C7 C9 C11 C12 C27 C31 C37 C38 C39 C42 ;2µ2,16V;14;Capacitors_SMD:C_0603;; ;ANY; ;X5R; 
+C2 C4 ;18p,50V;2;Capacitors_SMD:C_0603;; ;ANY; ;C0G; 
+C8 C10 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C25 C28 C30 C32 C33 C34 C43 ;100n,100V;21;Capacitors_SMD:C_0603;; ;ANY; ;X7R; 
+C26 ;1µ,63V;1;Capacitors_SMD:C_1206;; ;ANY; ; ; 
+C29 ;47µ,6V3;1;Capacitors_SMD:C_1206;; ;ANY; ;X5R; 
+C35 ;6n8,50V;1;Capacitors_SMD:C_0603;; ;ANY; ;X7R; 
+C36 ;10µ,16V;1;Capacitors_SMD:C_1206;; ;ANY; ;X7R; 
+C40 ;220µ,35V;1;Capacitors_SMD:CP_Elec_8x10;; ;ANY; ; ; 
+C41 ;100µ,63V;1;Capacitors_SMD:CP_Elec_10x10;; ;ANY; ; ; 
+D1 ;12V;1;Diodes_SMD:D_SOD-323;; ;MM3Z12VT1G; ; ; 
+D2 D3 D7 D9 D11 D13 D15 D17 D19 D21 D23 D25 D27 D29 D34 ;LED;15;LEDs:LED_0603;; ;150060RS75000; ; ; 
+D4 ;D_Schottky;1;Diodes_SMD:D_SOD-323;; ;CUS08F30 H3F; ; ; 
+D5 ;62V;1;Diodes_SMD:D_SOD-123;; ;CMHZ5265B TR; ; ; 
+D6 D8 D10 D12 D14 D16 D18 D20 D22 D24 D26 D28 ;7V5;12;Diodes_SMD:D_SOD-323;; ;MM3Z7V5T1G; ; ; 
+D30 ;53Vwm;1;Diodes_SMD:D_SMC;; ;1.5SMC62A; ; ; 
+D31 ;3,3Vwm;1;Diodes_SMD:D_SOD-123F;; ;SMF3.3; ; ; 
+D32 D33 ;FSV1060V;2;TO_SOT_Packages_SMD:TO-277A;; ;FSV1060V; ; ; 
+J1 ;Conn_02x08_Odd_Even;1;Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm;; ;"PREC008DAAN-RC/""PPTC082LFBN-RC""/""SFH210-PPPC-D08-ID-BK"""; ; ; 
+J2 ;USB_OTG;1;Connectors_USB:USB_Micro-B_Molex_47346-0001;; ;"10118192-0001LF OR ""1051330011"""; ; ; 
+J3 ;Conn_01x05;1;Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm_SMD_Pin1Left;; ;M20-8770546; ; ; 
+J4 J5 ;JST_XH-04;2;Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight;; ;B4B-XH-A(LF)(SN); ; ; 
+J6 ;JST_XH-13;1;Connectors_JST:JST_XH_S13B-XH-A_13x2.50mm_Angled;; ;S13B-XH-A(LF)(SN); ; ; 
+J7 ;Conn_01x03;1;Connectors_Phoenix:PhoenixContact_MCV-G_03x3.50mm_Vertical;; ;OSTTE030104; ; ; 
+L1 L2 L4 ;BLM31PG330SN1L;3;Inductors_SMD:L_1206;; ;BLM31PG330SN1L; ; ; 
+L3 ;22µ;1;Inductors_SMD:L_1210;; ;CBC3225T220MR; ; ; 
+L5 ;22µ,6.3A;1;Custom_footprints:HC9;; ;HC9-220-R; ; ; 
+LS1 ;Speaker;1;Custom_footprints:CSS-0575;; ;CSS-0575A-SMT-TR; ; ; 
+Q1 ;DMP6023LE-13;1;TO_SOT_Packages_SMD:SOT-223-3_TabPin2;; ;DMP6023LE-13; ; ; 
+Q2 ;DMN55D0UT-7;1;smd-semi:SOT-523;; ;DMN55D0UT-7; ; ; 
+Q3 Q4 ;PMV50XPR;2;TO_SOT_Packages_SMD:SOT-23;; ;PMV50XPR; ; ; 
+Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 ;BSS84PW;12;TO_SOT_Packages_SMD:SOT-323_SC-70;; ;BSS84PWH6327XTSA1; ; ; 
+Q17 ;BSZ100N06NSATMA1;1;Custom_footprints:PG-TDSON-8;; ;BSZ100N06NSATMA1; ; ; 
+R1 R11 R12 R13 R19 R24 R68 ;4k7;7;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R2 R3 R4 R6 R8 R17 R71 ;220k;7;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R5 R7 R9 R10 R15 R18 R67 R74 ;10k;8;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R14 R26 R27 R28 R30 R31 R33 R34 R36 R37 R39 R40 R42 R43 R45 R46 R48 R49 R51 R52 R54 R55 R57 R58 R60 R61 R63 R76 R77 ;120R;29;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R16 R20 R22 R72 R73 R75 ;18k;6;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R21 R23 R25 ;1M;3;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R29 R32 R35 R38 R41 R44 R47 R50 R53 R56 R59 R62 ;51R;12;Resistors_SMD:R_0805;; ;ANY;0.5W; ;5 %
+R64 R65 ;10R;2;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+R66 ;10m;1;Resistors_SMD:R_1206;; ;ANY;0.75W; ;1 %
+R69 ;15m;1;Resistors_SMD:R_1206;; ;ANY;0.75W; ;1 %
+R70 ;6k8;1;Resistors_SMD:R_0603;; ;ANY; ; ;1 %
+SW1 SW2 ;SW_Push;2;Buttons_Switches_SMD:SW_SPST_PTS810;; ;PTS810 SJK 250 SMTR LFS; ; ; 
+TH2 ;10k;1;Resistors_SMD:R_0603;;4300K;ERT-J1VR103J; ; ;5 %
+U1 ;AP2210N-3.3;1;TO_SOT_Packages_SMD:SOT-23;; ;AP2210N-3.3TRG1; ; ; 
+U2 ;STM32F070CBT6;1;Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm;; ;STM32F070CBT6; ; ; 
+U3 ;LTC6803-3;1;Housings_SSOP:TSSOP-44_4.4x11.2mm_Pitch0.5mm;; ;LTC6803IG-3#PBF; ; ; 
+U4 ;MAX17502;1;Housings_DFN_QFN:DFN-10-1EP_2x3mm_Pitch0.5mm;; ;MAX17502EATB+T; ; ; 
+U5 ;ISL28022;1;Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;; ;ISL28022FUZ-T7A; ; ; 
+U6 ;LTC3873;1;TO_SOT_Packages_SMD:TSOT-23-8;; ;LTC3873ETS8#TRMPBF; ; ; 
+U7 ;MAX5215;1;Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm;; ;MAX5215GUA+; ; ; 
+Y1 ;8MHz;1;Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm;; ;ABM3-8.000MHZ-D2Y-T; ; ; 
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git);;;;;;;;;
+Generated 17.3.2018 15:49:29;;;;;;;;;
