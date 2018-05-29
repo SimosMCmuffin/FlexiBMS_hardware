@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 19 19
 Title "FlexiBMS"
-Date "2018-02-22"
+Date "2018-05-06"
 Rev "0.2"
 Comp ""
 Comment1 ""
