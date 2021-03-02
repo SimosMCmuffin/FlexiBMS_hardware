@@ -1,3 +1,5 @@
+# Note, this is not the hardware version of the "Lite"-version of the FlexiBMS, but an earlier tested and discontinued/abandoned concept of the BMS design. Lite HW is a new project that was started after this HW project was discontinued and is not currently in open-source circulation HW design wise.
+
 # FlexiBMS_hardware
 Open Source BMS developed by Simo Sihvonen (Simos MCmuffin) with the Esk8 community, for the Esk8 community.
 
